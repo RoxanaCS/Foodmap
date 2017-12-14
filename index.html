@@ -11,7 +11,7 @@
   </head>
   <body>
     <div class="col-xs-12">
-      <div id="splash"><h1 class="text-center">Foodmap</h1></div>
+      <div id="splash"><h1 class="logo text-center">Foodmap</h1></div>
     </div>
     <div class="container hidden first-screen">
       <div class="row">
@@ -85,81 +85,157 @@
         <div class="row">
           <div class="col-xs-4">
             <div class="food-item hidden" category="Vegetariana">
-              <img class="img_veg1" src="assets/images/veg_1.jpg" alt="">
+              <a href="#modal-veg" data-toggle="modal"><img class="zoom" src="assets/images/veg_1.jpg" alt=""></a>
+            </div>
+            <!-- MODAL-->
+            <div class="modal fade" id="modal-veg" tabindex="-1" role="dialog" aria-labelledby="modal-vegLabel">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button tyle="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h1 class="text-center">El Huerto</h1>
+                    <img class="direccion img-responsive" src="assets/images/mapa.png" alt="Responsive image">
+                    <p class="text-center">La mejor comida vegetariana</p>
+                  </div>
+                  <div class="modal-body">
+                    <h4 class="text-center">Orrego Luco 54, Providencia, Santiago, Región Metropolitana</h4>
+                    <div class="centrado">
+                      <button type="submit" class="btn-pedir btn">Pedir Ahora</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
           <div class="col-xs-4">
             <div class="food-item hidden" category="Vegetariana">
-              <img class="img_veg2" src="assets/images/veg_2.jpg" alt="">
+              <a href="#modal-veg" data-toggle="modal"><img class="zoom" src="assets/images/veg_2.jpg" alt=""></a>
             </div>
           </div>
           <div class="col-xs-4">
             <div class="food-item hidden" category="Vegetariana">
-              <img src="assets/images/veg_3.jpg" alt="">
+              <a href="#modal-veg" data-toggle="modal"><img class="zoom" src="assets/images/veg_3.jpg" alt=""></a>
             </div>
           </div>
         </div>
         <div class="row">
           <div class="col-xs-4">
             <div class="food-item hidden" category="Vegetariana">
-              <img src="assets/images/veg_4.jpg" alt="">
+              <a href="#modal-veg" data-toggle="modal"><img class="zoom" src="assets/images/veg_3.jpg" alt=""></a>
             </div>
           </div>
           <div class="col-xs-4">
             <div class="food-item hidden" category="Vegetariana">
-              <img src="assets/images/veg_5.jpg" alt="">
+              <a href="#modal-veg" data-toggle="modal"><img class="zoom" src="assets/images/veg_5.jpg" alt=""></a>
             </div>
           </div>
           <div class="col-xs-4">
             <div class="food-item hidden" category="Vegetariana">
-              <img src="assets/images/veg_6.jpg" alt="">
+              <a href="#modal-veg" data-toggle="modal"><img class="zoom" src="assets/images/veg_6.jpg" alt=""></a>
             </div>
           </div>
         </div>
         <div class="row">
           <div class="col-xs-4">
             <div class="food-item hidden" category="Chilena">
-              <img src="assets/images/chilena_1.jpg" alt="">
+              <a href="#modal-chi" data-toggle="modal"><img class="zoom" src="assets/images/chilena_1.jpg" alt=""></a>
             </div>
           </div>
           <div class="col-xs-4">
             <div class="food-item hidden" category="Chilena">
-              <img src="assets/images/chilena_2.jpg" alt="">
+              <a href="#modal-chi" data-toggle="modal"><img class="zoom" src="assets/images/chilena_2.jpg" alt=""></a>
             </div>
           </div>
           <div class="col-xs-4">
             <div class="food-item hidden" category="Chilena">
-              <img src="assets/images/chilena_3.png" alt="">
+              <a href="#modal-chi" data-toggle="modal"><img class="zoom" src="assets/images/chilena_3.png" alt=""></a>
+            </div>
+          </div>
+          <!-- MODAL chilena-->
+          <div class="modal fade" id="modal-chi" tabindex="-1" role="dialog" aria-labelledby="modal-chiLabel">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button tyle="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                  <h1 class="text-center">La Ruca</h1>
+                  <img class="direccion img-responsive" src="assets/images/mapa.png" alt="Responsive image">
+                  <p class="text-center">La mejor comida chilena</p>
+                </div>
+                <div class="modal-body">
+                  <h4 class="text-center">Av. no se si existe este restaurant, Santiago, Región Metropolitana</h4>
+                  <div class="centrado">
+                    <button type="submit" class="btn-pedir btn">Pedir Ahora</button>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
         <div class="row">
           <div class="col-xs-4">
             <div class="food-item hidden" category="Mexicana">
-              <img src="assets/images/mexicana_1.jpg" alt="">
+              <a href="#modal-mex" data-toggle="modal"><img class="zoom" src="assets/images/mexicana_1.jpg" alt=""></a>
             </div>
           </div>
           <div class="col-xs-4">
             <div class="food-item hidden" category="Mexicana">
-              <img src="assets/images/mexicana_2.jpg" alt="">
+              <a href="#modal-mex" data-toggle="modal"><img class="zoom" src="assets/images/mexicana_2.jpg" alt=""></a>
+            </div>
+          </div>
+          <!-- MODAL mexicana-->
+          <div class="modal fade" id="modal-mex" tabindex="-1" role="dialog" aria-labelledby="modal-mexLabel">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button tyle="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                  <h1 class="text-center">Órale</h1>
+                  <img class="direccion img-responsive" src="assets/images/mapa.png" alt="Responsive image">
+                  <p class="text-center">La mejor comida mexicana</p>
+                </div>
+                <div class="modal-body">
+                  <h4 class="text-center">Av.los pajaritos, Santiago, Región Metropolitana</h4>
+                  <div class="centrado">
+                    <button type="submit" class="btn-pedir btn">Pedir Ahora</button>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
         <div class="row">
           <div class="col-xs-4">
             <div class="food-item hidden" category="Peruana">
-              <img src="assets/images/peruana_1.jpg" alt="">
+              <a href="#modal-pe" data-toggle="modal"><img class="zoom" src="assets/images/peruana_1.jpg" alt=""></a>
             </div>
           </div>
           <div class="col-xs-4">
             <div class="food-item hidden" category="Peruana">
-              <img src="assets/images/peruana_2.jpg" alt="">
+              <a href="#modal-pe" data-toggle="modal"><img class="zoom" src="assets/images/peruana_2.jpg" alt=""></a>
+            </div>
+          </div>
+          <!-- MODAL peruana -->
+          <div class="modal fade" id="modal-pe" tabindex="-1" role="dialog" aria-labelledby="modal-peLabel">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button tyle="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                  <h1 class="text-center">El ají seco</h1>
+                  <img class="direccion img-responsive" src="assets/images/mapa.png" alt="Responsive image">
+                  <p class="text-center">La mejor comida peruana</p>
+                </div>
+                <div class="modal-body">
+                  <h4 class="text-center">Av.hay como 1000 sucursales, Santiago, Región Metropolitana</h4>
+                  <div class="centrado">
+                    <button type="submit" class="btn-pedir btn">Pedir Ahora</button>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
     <script src="https://use.fontawesome.com/7873633050.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA9mfxu5ukVf2zwqEndOn6K7u7nS_Hzl84&callback=myMap"></script>
+     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA9mfxu5ukVf2zwqEndOn6K7u7nS_Hzl84&callback=myMap"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <script src="assets/js/app.js"></script>

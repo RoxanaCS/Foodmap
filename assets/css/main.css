@@ -9,8 +9,20 @@ body{
   bottom:0;
   width:100%;
 }
-h1{
+.logo{
   margin-top: 5em;
+}
+.centrado{
+  display: flex;
+  justify-content: center;
+}
+.direccion{
+  width: 20em;
+  margin-left: 3em;
+}
+.btn-pedir{
+  background-color: #FE7E11;
+  color: #ffff;
 }
 #map{
   width:100%;
@@ -20,6 +32,19 @@ h1{
 img{
   margin-top: 0.5em;
   width: 7em;
+}
+img.zoom {
+  width: 7em;
+  -webkit-transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  -o-transition: all .2s ease-in-out;
+  -ms-transition: all .2s ease-in-out;
+}
+.transition {
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  transform: scale(1.2);
 }
 .nameFood{
     width: 7em;
