@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Food Map</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/media.css">
+  </head>
+  <body>
+    <div class="col-xs-12">
+      <div id="splash"><h1 class="text-center">Foodmap</h1></div>
+    </div>
+    <div class="container hidden first-screen">
+      <div class="row">
+        <div class="col-xs-12">
+          <h2 class="text-center">Foodmap</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12">
+          <hr>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12">
+          <div class="map" id="map"></div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12">
+          <h3 class="text-center">Comida cerca de ti</h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12">
+          <select class="form-control" id="food-menu">
+            <option value="Seleccion">Selecciona tu comida favorita</option>
+            <option value="Vegetariana">Vegetariana</option>
+            <option value="Chilena">Chilena</option>
+            <option value="Mexicana">Mexicana</option>
+            <option value="Peruana">Peruana</option>
+          </select>
+        </div>
+      </div>
+      <div class="food-first">
+        <div class="row">
+          <div class="col-xs-4">
+            <div class="list-item" category="Seleccion">
+              <img src="assets/images/veg_1.jpg" alt="">
+            </div>
+          </div>
+          <div class="col-xs-4">
+            <div class="list-item" category="Seleccion">
+              <img src="assets/images/chilena_2.jpg" alt="">
+            </div>
+          </div>
+          <div class="col-xs-4">
+            <div class="list-item" category="Seleccion">
+              <img src="assets/images/mexicana_1.jpg" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-4">
+            <div class="list-item" category="Seleccion">
+              <img src="assets/images/peruana_2.jpg" alt="">
+            </div>
+          </div>
+          <div class="col-xs-4">
+            <div class="list-item" category="Seleccion">
+              <img src="assets/images/veg_5.jpg" alt="">
+            </div>
+          </div>
+          <div class="col-xs-4">
+            <div class="list-item" category="Seleccion">
+              <img src="assets/images/chilena_3.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="food-list">
+        <div class="row">
+          <div class="col-xs-4">
+            <div class="food-item hidden" category="Vegetariana">
+              <img class="img_veg1" src="assets/images/veg_1.jpg" alt="">
+            </div>
+          </div>
+          <div class="col-xs-4">
+            <div class="food-item hidden" category="Vegetariana">
+              <img class="img_veg2" src="assets/images/veg_2.jpg" alt="">
+            </div>
+          </div>
+          <div class="col-xs-4">
+            <div class="food-item hidden" category="Vegetariana">
+              <img src="assets/images/veg_3.jpg" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-4">
+            <div class="food-item hidden" category="Vegetariana">
+              <img src="assets/images/veg_4.jpg" alt="">
+            </div>
+          </div>
+          <div class="col-xs-4">
+            <div class="food-item hidden" category="Vegetariana">
+              <img src="assets/images/veg_5.jpg" alt="">
+            </div>
+          </div>
+          <div class="col-xs-4">
+            <div class="food-item hidden" category="Vegetariana">
+              <img src="assets/images/veg_6.jpg" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-4">
+            <div class="food-item hidden" category="Chilena">
+              <img src="assets/images/chilena_1.jpg" alt="">
+            </div>
+          </div>
+          <div class="col-xs-4">
+            <div class="food-item hidden" category="Chilena">
+              <img src="assets/images/chilena_2.jpg" alt="">
+            </div>
+          </div>
+          <div class="col-xs-4">
+            <div class="food-item hidden" category="Chilena">
+              <img src="assets/images/chilena_3.png" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-4">
+            <div class="food-item hidden" category="Mexicana">
+              <img src="assets/images/mexicana_1.jpg" alt="">
+            </div>
+          </div>
+          <div class="col-xs-4">
+            <div class="food-item hidden" category="Mexicana">
+              <img src="assets/images/mexicana_2.jpg" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-4">
+            <div class="food-item hidden" category="Peruana">
+              <img src="assets/images/peruana_1.jpg" alt="">
+            </div>
+          </div>
+          <div class="col-xs-4">
+            <div class="food-item hidden" category="Peruana">
+              <img src="assets/images/peruana_2.jpg" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    <script src="https://use.fontawesome.com/7873633050.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA9mfxu5ukVf2zwqEndOn6K7u7nS_Hzl84&callback=myMap"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="assets/js/app.js"></script>
+  </body>
+</html>
